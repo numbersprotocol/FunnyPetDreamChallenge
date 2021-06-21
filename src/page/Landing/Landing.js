@@ -1,11 +1,9 @@
-import logo from '../../img/logo.svg';
-import './App.css';
+import './Landing.css';
 
-function App() {
+function Landing() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -31,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Landing;
