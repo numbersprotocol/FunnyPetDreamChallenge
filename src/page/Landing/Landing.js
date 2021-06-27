@@ -6,9 +6,22 @@ import background_zh from '../../img/benner_zh.png';
 
 import logo_capture from '../../img/logo-capture.svg';
 import { useTranslation } from 'react-i18next';
+import Swal from 'sweetalert2'
+import withReactContent from "sweetalert2-react-content";
+import MoreShare from '../../component/MoreShare/MoreShare'
+
+const MySwal = withReactContent(Swal);
 
 function Landing() {
   const { t } = useTranslation();
+
+  const showModal = () => {
+    MySwal.fire({
+      title: <MoreShare />,
+    }).then(value => {
+      console.log(value, "value");
+    });
+  };
 
   /* 切換語系 */
   const { i18n } = useTranslation();
@@ -27,9 +40,15 @@ function Landing() {
   return (
     <main className="Landing" class="font-mono  w-full ">
       <div class="hidden sm:block absolute top-2/4 lg:top-3/4 -left-32 w-96 h-96">
-        <div class="absolute text-extrabold text-xl right-12 z-20 text-end top-1/4">
-          <span class="text-7xl">🔗</span>
-          <p class="text-2xl text-white">share this page ?</p>
+        <div class="absolute pl-32 flex flex-col  text-extrabold text-xl right-12 z-20 text-end top-1/4">
+          <button class=" text-2xl sm:text-4xl font-nanifont  text-center text-white " onClick={showModal}>
+           You can click
+            <br />
+            #Tag ---->
+            <br />
+            share this page ～
+            <br />
+          </button>
         </div>
         <svg
           viewBox="0 0 200 200"
@@ -54,7 +73,7 @@ function Landing() {
                 活動主頁
               </a>
               <button class="py-1 px-6 flex hover:text-black" type="button" onClick={() => changeLanguage('zh-TW')}>
-              中文
+                中文
               </button>
               <button class="py-1 px-6 flex hover:text-black" type="button" onClick={() => changeLanguage('en')}>
                 EN
@@ -69,8 +88,8 @@ function Landing() {
           </div>
         </div>
       </header>
-      
-      <img class="animation-img mt-10" src={lang==='zh-TW'?background_zh:background} alt="Background" />
+
+      <img class="animation-img mt-10" src={lang === 'zh-TW' ? background_zh : background} alt="Background" />
 
 
       <div class="flex relative z-20 items-center">
@@ -84,27 +103,9 @@ function Landing() {
                   ! click  ME !
                 </a>
               </div> */}
-            <p class="text-2xl sm:text-4xl font-nanifont my-12 text-center text-indigo-800 ">
-              {t('HashTag')}
-              {/* Hi, I&#x27;m 廢 🤘 */}
-            </p>
-            <div class=" mx-auto w-48 h-48">
-              <div class=" text-extrabold text-xl right-12 z-20 text-end top-1/4">
-                <span class="text-7xl">🔗</span>
-                <p class="text-2xl text-white">share this page ?</p>
-              </div>
-              <svg
-                viewBox="0 0 200 200"
-                class=" w-full h-full"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill="#7900ff"
-                  d="M44.7,-76.4C58.8,-69.2,71.8,-59.1,79.6,-45.8C87.4,-32.6,90,-16.3,88.5,-0.9C87,14.6,81.4,29.2,74.1,43.2C66.7,57.2,57.6,70.6,45,78.1C32.4,85.6,16.2,87.1,0.7,85.9C-14.8,84.7,-29.6,80.9,-43.9,74.4C-58.3,67.9,-72,58.7,-79.8,45.9C-87.7,33,-89.5,16.5,-88.9,0.3C-88.4,-15.9,-85.4,-31.7,-78.1,-45.4C-70.8,-59.1,-59.1,-70.6,-45.3,-77.9C-31.6,-85.3,-15.8,-88.5,-0.3,-88.1C15.3,-87.6,30.5,-83.5,44.7,-76.4Z"
-                  transform="translate(100 100)"
-                ></path>
-              </svg>
-            </div>
+            {/* Hi, I&#x27;m 廢 🤘 */}
+
+            <button class="text-2xl sm:text-4xl font-nanifont my-12 text-center text-indigo-800 " onClick={showModal}> {t('HashTag')}</button>
           </div>
         </div>
       </div>

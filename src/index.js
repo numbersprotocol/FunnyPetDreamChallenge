@@ -14,15 +14,17 @@ import EntriesSet from './page/EntriesSet/EntriesSet';
 import reportWebVitals from './reportWebVitals';
 import InstagramEmbed from 'react-instagram-embed';
 import './i18n';
-
+import SEOWithQuery from './component/SEO'
+import { Helmet } from 'react-helmet';
 
 ReactDOM.render(
   <React.StrictMode>
     <div class="flex flex-col	items-center backdrop-brightness-100 overflow-y-auto	">
+    <SEOWithQuery />
       <Landing />
       <Description />
       <DemoSet />
-      <AwardedSet/>
+      <AwardedSet />
       {/* <div className="DemoSet" class="flex flex-col	items-center	">
         <div className="DemoSetTitle" class=" text-2xl sm:text-4xl font-nanifont my-12 p-4 text-center rounded-2xl m-5  mb-5 bg-yellow-400 w-6/12	">
           入選作品  
