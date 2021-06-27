@@ -23,7 +23,7 @@ const items = [
 function DemoSet() {
   return (
     <div className="DemoSet" class="flex flex-col center w-full 	items-center backdrop-brightness-200 bg-yellow-400 sm:bg-transparent 	">
-      <div className="DemoSetTitle" class=" text-2xl sm:text-4xl font-nanifont my-12 p-4 text-center rounded-2xl m-5  mb-5 bg-yellow-400 w-6/12	">
+      <div className="DemoSetTitle" class=" text-4xl sm:text-6xl font-nanifont my-12 p-4 text-center rounded-2xl m-5  mb-5 bg-yellow-400 w-6/12	">
         示範賽作品
       </div>
       <div className="DemoSetImg" class=" rounded-2xl  m-auto p-auto sm:p-2   lg:p-4 lg:m-5  mb-5 bg-yellow-400 ">
