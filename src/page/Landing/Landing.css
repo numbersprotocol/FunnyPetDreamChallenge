@@ -1,0 +1,33 @@
+
+.Landing {
+  background: linear-gradient(180deg, #05FFAC 0%, #86EFBD 100%);
+  /* background: linear-gradient(165.99deg, #5F26FF 10%, #54F611 30%, rgba(83, 14, 228, 0.632865) 60%); */
+  /* background: linear-gradient(158.48deg, #6E4CEC 10.32%, rgba(104, 194, 102, 0.63) 28.99%, #09FF21 39.52%, rgba(118, 245, 67, 0.85) 47.08%, rgba(127, 109, 201, 0.8) 75.38%, #7F6DC9 93.03%);  background-color:orange this your primary color */
+}
+
+.header {
+  background:white;
+  /* background:#FFD027; */
+  /* background: linear-gradient(89.88deg, rgba(255, 255, 255, 0.5) 2.31%, rgba(16, 255, 0, 0.5) 91.49%); */
+}
+
+.animation-img {
+  /* animation: animate linear 10s infinite; */
+}
+
+
+@keyframes animate
+{
+  0%
+  {
+    transform: skewY(5deg);
+  }
+    50%
+  {
+    transform: skewY(-5deg);
+  }
+    100%
+  {
+    transform: skewY(5deg);
+  }
+}
