@@ -13,6 +13,8 @@ import EntriesSet from './page/EntriesSet/EntriesSet';
 
 import reportWebVitals from './reportWebVitals';
 import InstagramEmbed from 'react-instagram-embed';
+import './i18n';
+
 
 ReactDOM.render(
   <React.StrictMode>

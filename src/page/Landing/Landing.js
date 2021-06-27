@@ -1,8 +1,29 @@
 import "./Landing.css";
-import background from '../../img/benner_zh.png';
+import React, { useState, useEffect } from "react";
+
+import background from '../../img/benner.png';
+import background_zh from '../../img/benner_zh.png';
+
 import logo_capture from '../../img/logo-capture.svg';
+import { useTranslation } from 'react-i18next';
 
 function Landing() {
+  const { t } = useTranslation();
+
+  /* 切換語系 */
+  const { i18n } = useTranslation();
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    setLang(lng);
+  };
+  //React hook
+  const [lang, setLang] = useState('en');
+  // useEffect(() => {
+  //   if (lang !== null) i18n.changeLanguage(lang.value);
+  // }, [i18n, lang]);
+
+  // setLang('en');
+  // setLang('ja-JP');
   return (
     <main className="Landing" class="font-mono  w-full ">
       <div class="hidden sm:block absolute top-2/4 lg:top-3/4 -left-32 w-96 h-96">
@@ -29,15 +50,15 @@ function Landing() {
           </div>
           <div class="flex items-center">
             <nav class="font-sen text-gray-800 dark:text-white uppercase text-3xl	 lg:flex items-center hidden">
-              <a href="#" class="py-1 px-6 flex hover:text-black">
+              <a href="http://petdream.numbersprotocol.io/" class="py-1 px-6 flex hover:text-black">
                 活動主頁
               </a>
-              <a href="#" class="py-1 px-6 flex hover:text-black">
-                中文
-              </a>
-              <a href="#" class="py-1 px-6 flex hover:text-black">
+              <button class="py-1 px-6 flex hover:text-black" type="button" onClick={() => changeLanguage('zh-TW')}>
+              中文
+              </button>
+              <button class="py-1 px-6 flex hover:text-black" type="button" onClick={() => changeLanguage('en')}>
                 EN
-              </a>
+              </button>
 
             </nav>
             <button class="lg:hidden flex flex-col ml-4">
@@ -48,7 +69,8 @@ function Landing() {
           </div>
         </div>
       </header>
-      <img class="animation-img mt-10" src={background} alt="Background" />
+      
+      <img class="animation-img mt-10" src={lang==='zh-TW'?background_zh:background} alt="Background" />
 
 
       <div class="flex relative z-20 items-center">
@@ -63,7 +85,7 @@ function Landing() {
                 </a>
               </div> */}
             <p class="text-2xl sm:text-4xl font-nanifont my-12 text-center text-indigo-800 ">
-              #FunnyPetDreamChallenge
+              {t('HashTag')}
               {/* Hi, I&#x27;m 廢 🤘 */}
             </p>
             <div class=" mx-auto w-48 h-48">
