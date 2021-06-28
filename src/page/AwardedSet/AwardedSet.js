@@ -23,7 +23,7 @@ const items = [
 function AwardedSet() {
   return (
     <div className="AwardedSet" class="flex flex-col	items-center bg-yellow-400 sm:bg-transparent w-full ">
-      <div className="AwardedSetTitle" class=" text-4xl sm:text-6xl text-white font-nanifont my-12 p-4 text-center rounded-2xl m-5  mb-5 violet w-6/12  md:w-4/12">
+      <div className="AwardedSetTitle" class=" text-4xl sm:text-6xl text-white font-nanifont my-12 p-4 text-center rounded-2xl m-5  mb-5 violet w-6/12  md:w-3/12">
       得獎作品
       </div>
       {/* <div className="AwardedSetImg" class=" p-2 lg:rounded-2xl lg:m-2  mb-5 violet "> */}

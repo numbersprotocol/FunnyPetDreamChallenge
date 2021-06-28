@@ -7,7 +7,7 @@ function Description({ t }) {
   return (
     // <div className="Description" class="grid place-items-center  h-screen-1/2 mx-auto p-10 my-20 sm:w-max sm:my-auto rounded-xl space-y-5 text-center">
     <div className="Description" class="flex flex flex-col items-center	 place-items-center font-mono  mx-auto py-5 my-20 text-center sm:text-left">
-      <div className="DemoSetTitle" class=" text-4xl sm:text-4xl font-nanifont my-12 p-4 text-center rounded-2xl m-5 z-40 -mb-16 violet text-white shadow-gl w-7/12	sm:w-5/12">
+      <div className="DemoSetTitle" class=" text-4xl sm:text-4xl font-nanifont my-12 p-4 text-center rounded-2xl m-5 z-40 -mb-16 violet text-white shadow-gl w-7/12	sm:w-5/12  lg:w-3/12	">
         {t('Voting')}
       </div>
       <div class="relative py-3 w-9/12 mx-auto my-10" >
@@ -52,7 +52,7 @@ function Description({ t }) {
           </div>
         </div>
       </div>
-      <div className="DemoSetTitle" class=" text-4xl sm:text-4xl font-nanifont my-12 p-4 text-center rounded-2xl m-5 z-40 -mb-16 violet text-white shadow-gl w-7/12	sm:w-5/12">
+      <div className="DemoSetTitle" class=" text-4xl sm:text-4xl font-nanifont my-12 p-4 text-center rounded-2xl m-5 z-40 -mb-16 violet text-white shadow-gl w-7/12	sm:w-5/12  lg:w-3/12	">
         {t('Demo')}
       </div>
       <div class="relative py-3  w-9/12 mx-auto my-10" >

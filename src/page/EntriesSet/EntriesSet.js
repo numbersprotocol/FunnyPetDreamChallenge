@@ -1,5 +1,6 @@
 /* eslint-disable react/style-prop-object */
 import PostGeneral from "../../component/PostGeneral";
+import { withTranslation, Trans } from 'react-i18next';
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
 // const items = [
@@ -35,11 +36,11 @@ const items = [
   {url:'https://www.instagram.com/p/CQZkTbHBl1B/'},
   {url:'https://www.instagram.com/p/CQAptCEryir/'},
 ];
-function EntriesSet() {
+function EntriesSet({ t }) {
   return (
     <div className="EntriesSet" class="flex flex-col center w-full  justify-center 	items-center  lg:bg-transparent 	">
-      <div className="EntriesSetTitle" class=" text-2xl sm:text-4xl items-center font-nanifont my-12 p-4 text-center rounded-2xl m-auto sm:m-5  mb-5  w-6/12 text-white violet">
-      入選作品
+      <div className="EntriesSetTitle" class=" text-2xl sm:text-4xl items-center font-nanifont my-12 p-4 text-center rounded-2xl m-auto sm:m-5  mb-5  w-6/12 text-white violet lg:w-3/12	">
+      {t('Entries')}
       </div>
       <div className="EntriesSetImg" class="flex-col sm:flex  sm:flex-row  justify-center flex-wrap rounded-2xl p-auto center iphone:p-5 sm:p-5 m-auto mb-5  ">
 
@@ -54,6 +55,6 @@ function EntriesSet() {
   );
 }
 
-export default EntriesSet;
+export default  withTranslation()(EntriesSet);
 
 // https://graph.instagram.com/me?fields=id,username&access_token=IGQVJYN2hKckZAmZAzZAWcUlTOVVmQnF4aks3Qk1pMGRBWDJORW05TnMyNHB6VDMzSFJVbV9fQ2tmR1lWdjhEUnNvUncxT1hQYU5fRzhFelJHajFfS2tVUFJqdXVFbldXLW1SNy13QVMwZAE55Tng3RnVzOQZDZD
