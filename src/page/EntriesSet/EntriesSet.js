@@ -13,16 +13,27 @@ let arr = [1, 2, 3, 4, 5, 6, 7];
 //   'https://www.instagram.com/p/CQQufsdr2nC/',
 //   'https://www.instagram.com/p/CQTEDJaM8AB/',
 // ];
+// const items = [
+//   {id:1,url:'https://www.instagram.com/p/CQSqN-4tcsm/',},
+//   {id:2,url:'https://www.instagram.com/p/CQVFcBarfBQ/',enableDescription:true },
+//   {id:3,url:'https://www.instagram.com/p/CQRAuv0L6_8/',enableDescription:true},
+//   {id:4,url:'https://www.instagram.com/p/CQWE8gzD3qQ/',enableDescription:false},
+//   {id:5,url:'https://www.instagram.com/p/CQV9Y4epD1e/',enableDescription:false},
+//   {id:6,url:'https://www.instagram.com/p/CQbDU3QqUku/',enableDescription:false},
+//   {id:7,url:'https://www.instagram.com/p/CQSkwKSpCJ4/',enableDescription:false},
+//   {id:8,url:'https://www.instagram.com/p/CQZkTbHBl1B/',enableDescription:true},
+//   {id:9,url:'https://www.instagram.com/p/CQAptCEryir/',enableDescription:false},
+// ];
 const items = [
-  {id:1,url:'https://www.instagram.com/p/CQSqN-4tcsm/',enableDescription:true},
-  {id:2,url:'https://www.instagram.com/p/CQVFcBarfBQ/',enableDescription:true },
-  {id:3,url:'https://www.instagram.com/p/CQRAuv0L6_8/',enableDescription:true},
-  {id:4,url:'https://www.instagram.com/p/CQWE8gzD3qQ/',enableDescription:false},
-  {id:5,url:'https://www.instagram.com/p/CQV9Y4epD1e/',enableDescription:false},
-  {id:6,url:'https://www.instagram.com/p/CQbDU3QqUku/',enableDescription:false},
-  {id:7,url:'https://www.instagram.com/p/CQSkwKSpCJ4/',enableDescription:false},
-  {id:8,url:'https://www.instagram.com/p/CQZkTbHBl1B/',enableDescription:true},
-  {id:9,url:'https://www.instagram.com/p/CQAptCEryir/',enableDescription:false},
+  {url:'https://www.instagram.com/p/CQSqN-4tcsm/'},
+  {url:'https://www.instagram.com/p/CQVFcBarfBQ/'},
+  {url:'https://www.instagram.com/p/CQRAuv0L6_8/'},
+  {url:'https://www.instagram.com/p/CQWE8gzD3qQ/'},
+  {url:'https://www.instagram.com/p/CQV9Y4epD1e/'},
+  {url:'https://www.instagram.com/p/CQbDU3QqUku/'},
+  {url:'https://www.instagram.com/p/CQSkwKSpCJ4/'},
+  {url:'https://www.instagram.com/p/CQZkTbHBl1B/'},
+  {url:'https://www.instagram.com/p/CQAptCEryir/'},
 ];
 function EntriesSet() {
   return (
@@ -36,7 +47,7 @@ function EntriesSet() {
 
           {/* <div class=" grid gap-1  grid-flow-col auto-cols-min md:auto-cols-max grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 px-5  pt-6"> */}
           {items.map((item) =>
-                  <PostGeneral id={item.id} corwn={item.corwn} url={item.url} enableDescription={item.enableDescription} />
+                  <PostGeneral url={item.url} />
           )}
       </div>
     </div>

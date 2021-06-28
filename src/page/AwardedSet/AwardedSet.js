@@ -22,12 +22,12 @@ const items = [
 ];
 function AwardedSet() {
   return (
-    <div className="AwardedSet" class="flex flex-col	items-center violet sm:bg-transparent w-full ">
+    <div className="AwardedSet" class="flex flex-col	items-center bg-yellow-400 sm:bg-transparent w-full ">
       <div className="AwardedSetTitle" class=" text-4xl sm:text-6xl text-white font-nanifont my-12 p-4 text-center rounded-2xl m-5  mb-5 violet w-6/12  md:w-4/12">
       得獎作品
       </div>
       {/* <div className="AwardedSetImg" class=" p-2 lg:rounded-2xl lg:m-2  mb-5 violet "> */}
-      <div className="AwardedSetImg" class=" sm:p-2   lg:m-2 rounded-2xl  mb-5 violet ">
+      <div className="AwardedSetImg" class=" sm:p-2   lg:m-2 rounded-2xl  mb-5 bg-yellow-400 ">
 
         {/* <div class="flex flex-wrap  justify-between  space-x-0 lg:space-x-2 mix-w-mix bg-blue-400 pt-6"> */}
         <div class="flex flex-col sm:p-5 lg:flex-row md:space-x-4 lq:gap-10 md:px-5  grid-flow-col auto-cols-min md:auto-cols-max  pt-6">

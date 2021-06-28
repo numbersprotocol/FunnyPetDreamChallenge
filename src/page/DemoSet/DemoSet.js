@@ -16,17 +16,17 @@ let arr = [1, 2, 3, 4, 5, 6, 7];
 //   'https://www.instagram.com/p/CQTEDJaM8AB/',
 // ];
 const items = [
-  { id: 1, url: 'https://www.instagram.com/p/CQltfGNszUj/', enableDescription: true },
-  { id: 2, url: 'https://www.instagram.com/p/CQf_RowslCj/', enableDescription: true },
-  { id: 3, url: 'https://www.instagram.com/p/CQax24FMGcW/', enableDescription: true },
+  {  url: 'https://www.instagram.com/p/CQltfGNszUj/', enableDescription: true },
+  { url: 'https://www.instagram.com/p/CQf_RowslCj/', enableDescription: true },
+  {  url: 'https://www.instagram.com/p/CQax24FMGcW/', enableDescription: true },
 ];
 function DemoSet() {
   return (
-    <div className="DemoSet" class="flex flex-col center w-full 	items-center backdrop-brightness-200 bg-yellow-400 sm:bg-transparent 	">
-      <div className="DemoSetTitle" class=" text-4xl sm:text-6xl font-nanifont my-12 p-4 text-center rounded-2xl m-5  mb-5 bg-yellow-400 w-6/12	">
+    <div className="DemoSet" class="flex flex-col center w-full 	items-center backdrop-brightness-200 violet sm:bg-transparent 	">
+      <div className="DemoSetTitle" class=" text-4xl sm:text-6xl  text-white font-nanifont my-12 p-4 text-center rounded-2xl m-5  mb-5 violet w-6/12	">
         示範賽作品
       </div>
-      <div className="DemoSetImg" class=" rounded-2xl  m-auto p-auto sm:p-2   lg:p-4 lg:m-5  mb-5 bg-yellow-400 ">
+      <div className="DemoSetImg" class=" rounded-2xl  m-auto p-auto sm:p-2   lg:p-4 lg:m-5  mb-5 violet ">
         <div class="flex flex-col  m-auto  items-center	self-center	 lg:flex-row sm:p-5 flex-w-min  md:space-x-4  pt-6 ">
 
           {/* <div class="flex flex-wrap gap-1 md:space-x-4 lq:gap-10 md:px-5  grid-flow-col auto-cols-min md:auto-cols-max  pt-6"> */}

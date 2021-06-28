@@ -62,13 +62,13 @@ function Landing() {
   // setLang('ja-JP');
   return (
     <main className="Landing" class="font-mono  w-full overflow-hidden sm:overflow-visible">
-      <header class="bg-white  h-12 iphone:h-18 sm:h-24 flex items-center z-30 w-full">
+      <header class="bg-white  h-12 iphone:h-18 sm:h-20 flex items-center z-30 w-full">
         <div class=" w-full mx-auto px-6 flex items-center justify-between">
-          <div class="uppercase text-gray-800 dark:text-white font-black text-3xl flex items-center">
+          <div class="uppercase text-gray-800 dark:text-white font-black text-2xl lg:text-3xl flex items-center">
             <img src={logo_capture} class="h-10 iphone:h-12 iphone:py-2 sm:h-24  sm:py-4" alt="logo" />
           </div>
           <div class="flex justify-between items-center">
-            <nav class="font-nanifont  text-indigo-800  text-gray-800 dark:text-white uppercase text-3xl	 lg:flex items-center hidden">
+            <nav class="font-nanifont  text-indigo-800  text-gray-800 dark:text-white uppercase text-2xl lg:text-3xl	 lg:flex items-center hidden">
               <a href="http://petdream.numbersprotocol.io/" class="py-1 px-6 flex hover:text-black">
                 {t('EventHomepage')}
               </a>
