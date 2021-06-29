@@ -2,7 +2,7 @@
   "name": "cat-dog-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dayuan.dev/gitpage-test/",
+  "homepage": "http://numbersprotocol.github.io/FunnyPetDreamChallenge/",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@testing-library/jest-dom": "^5.11.4",

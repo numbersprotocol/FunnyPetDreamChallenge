@@ -58,7 +58,7 @@ import exampleImage from '../../img/OGimg.png';
 
 class MoreShare extends Component {
   render() {
-    const shareUrl = 'https://dayuan.dev/gitpage-test/';
+    const shareUrl = 'https://numbersprotocol.github.io/FunnyPetDreamChallenge/';
     const title = '#FunnyPetDreamChallenge';
 
     return (
