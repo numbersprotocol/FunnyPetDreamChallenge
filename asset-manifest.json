@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FunnyPetDreamChallenge/static/css/main.de5282a9.chunk.css",
-    "main.js": "/FunnyPetDreamChallenge/static/js/main.9bb0496e.chunk.js",
-    "main.js.map": "/FunnyPetDreamChallenge/static/js/main.9bb0496e.chunk.js.map",
-    "runtime-main.js": "/FunnyPetDreamChallenge/static/js/runtime-main.f4860e26.js",
-    "runtime-main.js.map": "/FunnyPetDreamChallenge/static/js/runtime-main.f4860e26.js.map",
-    "static/js/2.59d4b22e.chunk.js": "/FunnyPetDreamChallenge/static/js/2.59d4b22e.chunk.js",
-    "static/js/2.59d4b22e.chunk.js.map": "/FunnyPetDreamChallenge/static/js/2.59d4b22e.chunk.js.map",
-    "static/js/3.9134976a.chunk.js": "/FunnyPetDreamChallenge/static/js/3.9134976a.chunk.js",
-    "static/js/3.9134976a.chunk.js.map": "/FunnyPetDreamChallenge/static/js/3.9134976a.chunk.js.map",
+    "main.css": "/FunnyPetDreamChallenge/static/css/main.c9ab1573.chunk.css",
+    "main.js": "/FunnyPetDreamChallenge/static/js/main.ed0f74ea.chunk.js",
+    "main.js.map": "/FunnyPetDreamChallenge/static/js/main.ed0f74ea.chunk.js.map",
+    "runtime-main.js": "/FunnyPetDreamChallenge/static/js/runtime-main.aa2606de.js",
+    "runtime-main.js.map": "/FunnyPetDreamChallenge/static/js/runtime-main.aa2606de.js.map",
+    "static/js/2.42662557.chunk.js": "/FunnyPetDreamChallenge/static/js/2.42662557.chunk.js",
+    "static/js/2.42662557.chunk.js.map": "/FunnyPetDreamChallenge/static/js/2.42662557.chunk.js.map",
+    "static/js/3.7416acdf.chunk.js": "/FunnyPetDreamChallenge/static/js/3.7416acdf.chunk.js",
+    "static/js/3.7416acdf.chunk.js.map": "/FunnyPetDreamChallenge/static/js/3.7416acdf.chunk.js.map",
     "index.html": "/FunnyPetDreamChallenge/index.html",
-    "static/css/main.de5282a9.chunk.css.map": "/FunnyPetDreamChallenge/static/css/main.de5282a9.chunk.css.map",
-    "static/js/2.59d4b22e.chunk.js.LICENSE.txt": "/FunnyPetDreamChallenge/static/js/2.59d4b22e.chunk.js.LICENSE.txt",
+    "static/css/main.c9ab1573.chunk.css.map": "/FunnyPetDreamChallenge/static/css/main.c9ab1573.chunk.css.map",
+    "static/js/2.42662557.chunk.js.LICENSE.txt": "/FunnyPetDreamChallenge/static/js/2.42662557.chunk.js.LICENSE.txt",
     "static/media/OGimg.b1f4f8cf.png": "/FunnyPetDreamChallenge/static/media/OGimg.b1f4f8cf.png",
     "static/media/benner.6517e9eb.png": "/FunnyPetDreamChallenge/static/media/benner.6517e9eb.png",
     "static/media/benner_mobile.57bbf8d1.png": "/FunnyPetDreamChallenge/static/media/benner_mobile.57bbf8d1.png",
@@ -22,13 +22,12 @@
     "static/media/icon-twitter.04746803.svg": "/FunnyPetDreamChallenge/static/media/icon-twitter.04746803.svg",
     "static/media/logo-capture.d6971e64.svg": "/FunnyPetDreamChallenge/static/media/logo-capture.d6971e64.svg",
     "static/media/logo-captureClub.adb020ad.svg": "/FunnyPetDreamChallenge/static/media/logo-captureClub.adb020ad.svg",
-    "static/media/logo.6ce24c58.svg": "/FunnyPetDreamChallenge/static/media/logo.6ce24c58.svg",
     "static/media/logo_capture.ce27dc2e.svg": "/FunnyPetDreamChallenge/static/media/logo_capture.ce27dc2e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4860e26.js",
-    "static/js/2.59d4b22e.chunk.js",
-    "static/css/main.de5282a9.chunk.css",
-    "static/js/main.9bb0496e.chunk.js"
+    "static/js/runtime-main.aa2606de.js",
+    "static/js/2.42662557.chunk.js",
+    "static/css/main.c9ab1573.chunk.css",
+    "static/js/main.ed0f74ea.chunk.js"
   ]
 }
