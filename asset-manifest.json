@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FunnyPetDreamChallenge/static/css/main.4a6a9389.chunk.css",
-    "main.js": "/FunnyPetDreamChallenge/static/js/main.fafc8be6.chunk.js",
-    "main.js.map": "/FunnyPetDreamChallenge/static/js/main.fafc8be6.chunk.js.map",
+    "main.js": "/FunnyPetDreamChallenge/static/js/main.33bccf47.chunk.js",
+    "main.js.map": "/FunnyPetDreamChallenge/static/js/main.33bccf47.chunk.js.map",
     "runtime-main.js": "/FunnyPetDreamChallenge/static/js/runtime-main.b869dc00.js",
     "runtime-main.js.map": "/FunnyPetDreamChallenge/static/js/runtime-main.b869dc00.js.map",
     "static/js/2.097741da.chunk.js": "/FunnyPetDreamChallenge/static/js/2.097741da.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.b869dc00.js",
     "static/js/2.097741da.chunk.js",
     "static/css/main.4a6a9389.chunk.css",
-    "static/js/main.fafc8be6.chunk.js"
+    "static/js/main.33bccf47.chunk.js"
   ]
 }
